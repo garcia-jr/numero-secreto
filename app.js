@@ -4,7 +4,7 @@
 // let paragrafo = document.querySelector("p");
 // paragrafo.innerHTML = "Escolha um número entre 1 e 10";
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let aleatorio = gerarNumeroAleatorio();
 let tentativa = 1;
 
@@ -15,7 +15,7 @@ function AlterarTexto(tag, texto) {
 }
 function exibirMensagemInicial() {
   AlterarTexto("h1", "Jogo do número secreto");
-  AlterarTexto("p", "Escolha um número entre 1 e 10");
+  AlterarTexto("p", "Escolha um número entre 1 e 100");
 }
 
 function verificarChute() {
