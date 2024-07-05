@@ -14,7 +14,6 @@ function AlterarTexto(tag, texto) {
   responsiveVoice.speak(texto, "Brazilian Portuguese Female", { rate: 1.2 });
 }
 function exibirMensagemInicial() {
-  AlterarTexto("h1", "Jogo do número secreto");
   AlterarTexto("p", "Escolha um número entre 1 e 50");
 }
 
